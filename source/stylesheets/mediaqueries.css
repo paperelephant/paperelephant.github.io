@@ -1,0 +1,154 @@
+/*Phablets (379px breakpoint)
+========================================================================*/
+@media only screen and (min-width: 379px) {
+	.logo-wrap {
+		max-width: 10%;
+		margin-bottom: 1.75em;
+	}
+
+	#banner {
+		font-family: alegreya sans;
+		font-size: 3em;
+}
+
+
+
+/*Phone to Tablets (479px breakpoint)
+========================================================================*/
+@media only screen and (min-width: 479px) {
+.logo-wrap {
+	width: 55px;
+	height: auto;
+	max-width: 9%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+}
+
+.tagline {
+	font-size: 1em;
+}
+
+#banner {
+	font-family: Raleway; Alegreya sans; Gudea; Sans Serif;
+	font-size: 3.75em;
+	letter-spacing: 0em;
+	border-top: 2px solid #002340;
+	border-bottom: 2px solid #002340;
+	display: inline-block;
+	padding: 2% 0%;
+	margin: 2.5% 5% 5% 5%;
+}
+
+#breeds-nav {
+	font-size: 1.5em;
+}
+
+#breeds-nav a {
+	display: inline-block;
+}
+
+.bullet {
+	font-size: .25em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	display: inline-block;
+	vertical-align: middle;
+} 
+#email-field {
+	margin-left: 15%;
+}
+
+}
+
+/* Small Screen (679px breakpoint)
+=========================================================================*/
+@media only screen and (min-width: 679px) {
+
+#banner {
+	font-size: 4.25em;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.logo-wrap {
+	max-width: 5%;
+}
+
+.tagline {
+	
+}
+.bullet {
+	font-size: .75em;
+}
+
+#email-field {
+	margin-left: 20%;
+
+}
+
+/* Fixed LAUNCH PAGE (710px breakpoint)
+===========================================================================*/
+#launch {
+	max-width: 80%;
+
+}
+
+/* Larger Screen, Floated Blocks appear (879px breakpoint)
+===========================================================================*/
+@media only screen and (min-width: 879px) {
+
+	.content {
+		padding: 3.5%;
+		margin: 1%;
+	}
+	.block1 {
+		width: 100%;
+		max-height: 490px;
+	}
+
+	.ang-block {
+		float: left;
+		max-width: 44%;
+	}
+	
+	#ang-ears {
+		float: right;
+		max-width: 44%;
+		margin: 1%;
+	}
+
+.logo-wrap {
+	width: 45px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+}
+
+
+#launch {
+	width: 100%;
+}
+
+#x-wrap {
+	float: right;
+}
+
+.l-ears {
+	max-width: 58%;
+}
+
+.launch-form {
+  width: 100%;
+}
+
+}
+
+
+@media screen and (min-width: 1000px) { 
+	.wrapper { 
+		width: 50%; 
+	} 
+}

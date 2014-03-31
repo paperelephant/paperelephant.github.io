@@ -1,0 +1,357 @@
+body {
+/*Gradient Background for Launch ==========================================================================================*/
+    
+    background: #ffffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #fcf8f0 55%, #D7DDE5 99%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(55%,#fcf8f0), color-stop(99%,#D7DDE5)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#fcf8f0 55%,#D7DDE5 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#fcf8f0 55%,#D7DDE5 99%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#fcf8f0 55%,#D7DDE5 99%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffffff 0%,#fcf8f0 55%,#D7DDE5 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#D7DDE5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient 
+
+/*End Gradient Backgroun*/
+
+
+
+  color: #766E69;
+  font-size: 100%;
+}
+
+/*HEADINGS
+==============================================================================================*/
+h1 {
+  font-family: sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  font-family: Californian FB, serif;
+  font-size: 3em;
+  margin-bottom: 1.5em;
+  line-height: 1.12em;
+}
+
+h3 {
+  font-family: Gentium book Basic;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+h4 {
+  font-family: Californian FB; serif;
+  font-size: .90em;
+}
+
+/* IMAGES
+============================================================================================*/
+.image {
+  padding: 0;
+  margin: 3.5%;
+  max-width: 100%;
+  height: auto;
+}
+
+/*CONTENT AND TEXT DETAILS
+============================================================================================*/
+.content {
+  color: #002340;
+  max-width: 100%;
+  padding: 5.5%;
+  margin: 3.5%;
+  font-family: Raleway;
+  text-align: left;
+  line-height: 2em;
+  overflow: hidden;
+  font-size: .85em;
+}
+
+.linebreak {
+  color: #002340;
+  font-size: 0;
+  border-style: solid;
+  width: 70%;
+  float: left;
+  z-index: 15;
+}
+
+
+/* HIGHLIGHT LETTER--no longer in the HTML
+.highlight-letter {
+  font-family: Californian FB;
+  font-size: 20em;
+  color: #FCF8F0;
+  float: left;
+  z-index: 1;
+  max-width: 100%;
+  padding-top: 45px;
+  margin-left: -20%;
+  overflow: visible;
+}*/
+
+.intro {
+  text-align: center;
+}
+
+.launch-bio {
+  font-family: Gentium Book Basic;
+  max-width: 70%;
+  text-align: left;
+  margin-left: 5%;
+  padding: 10%;
+}
+
+/*LAUNCH PAGE
+============================================================================================*/
+/*#l-wrap {
+  border-left: 3px solid #766e69; 
+  margin-left: 5%;
+}*/
+
+.l-ears {
+  max-width: 75%;
+  background: #FFF;
+  border: solid 10px #FFF;
+  box-shadow: 5px 5px 7px 1px #DED6D1;
+  margin-top: 25px;
+  float: left;
+  margin-left: 5%;
+  /*ROTATE*/
+  -moz-transform: rotate(-70deg);
+  -webkit-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+#l-wrap {
+  border: none;
+}
+#x-wrap {
+  border-left: 3px solid #766e69; 
+  margin-left: 10%;
+  float: right;
+  margin-bottom: 10%;
+}
+
+
+
+/* INTRO BANNER AND LOGO
+============================================================================================*/
+.logo-wrap {
+  width: 55px;
+  height: auto;
+  max-width: 12%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-sm {
+  display: block;
+  margin-top: 2.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+.tagline {
+  font-family: Adobe Caslon Pro; Garamond; Californian FB Italic; Gentium Book Basic;
+}
+
+#banner {
+  font-family: alegreya sans; sans-serif;
+  font-size: 2.5em;
+  letter-spacing: .035em;
+  color: #002340;
+}
+span {
+  font-size: 1.35em;
+}
+
+p {
+  margin-top: 3.5em;
+  width: 90%;
+}
+
+/*NAVIGATION
+==============================================================================================*/
+
+#breeds-nav {
+  font-family: Gentium Book Basic; serif;
+  font-size: 1.25em;
+  list-style: none;
+  max-width: 100%;
+  padding: 0px;
+  margin-bottom: 10em; /*Was: 15em, reduced for launch page*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#breeds-nav ul {
+  text-align: center;
+}
+
+#breeds-nav a {
+  text-decoration: none;
+  color: #766E69;
+  padding: 10px;
+  display: block;
+}
+
+.bullet {
+  font-size: .75em;
+}
+
+/*SUBMIT FORM
+==============================================================================================*/
+
+input {
+  border: 2px solid #E3EAF2;
+  padding: .75em;
+  font-family: Alegreya Sans, sans-serif;
+  background: #FFF;
+
+}
+
+.launch-form {
+  display: inline;
+  max-width: 80%;
+}
+
+#submit-btn {
+  float: left;
+  text-transform: uppercase;
+  background: #E3EAF2;
+}
+
+#email-field {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+/*BLOCK ONE--ANGORA
+==============================================================================================*/
+#angora h2 {
+  color: #002340;
+  z-index: 20;
+  text-align: left;
+}
+
+#angora .content {
+  background-color: #C1D4DB;
+}
+
+#angora hr {
+  background: #C1D4DB;
+}
+
+.ears {
+  max-width: 100%;
+}
+
+
+/*BLOCK TWO--PAN PIC (PANORAMIC PICTURE OF COLONY)
+==============================================================================================*/
+.panoramic {
+  max-width: 100%;
+}
+
+/*BLOCK THREE--COLONY
+==============================================================================================*/
+#colony .content {
+  background-color: #D06E00;
+}
+
+.group-pic {
+  max-width: 100%;
+}
+
+/*BLOCK FOUR--ABOUT US
+==============================================================================================*/
+#about-us .content {
+  background-color: #E5C173;
+}
+
+.us-pic {
+  max-width: 100%;
+}
+
+/*END BLOCK
+==============================================================================================*/
+#gray-hl {
+  color: #766E69;
+  display: inline-block;
+}
+#sign-up h2 {
+  display: block;
+}
+.submit-button {
+  background: #A42900;
+  text-align: center;
+  float: left;
+  width: 100px;
+  padding: 10px;
+}
+.submit-button a {
+  color: #FCF8F0;
+  text-decoration: none;
+  font-family: alegreya sans; sans-serif;
+  font-size: 1.5em;
+}
+
+.logo-wrap-end {
+  float: right;
+  width: 65px;
+  height: auto;
+  max-width: 18%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* ORIGNAL STYLING FOR REFERENCE
+==============================================================================================
+h4 {
+  font-family: Californian FB;
+  font-size: 16pt;
+}
+h2 {
+  font-family: Californian FB; Serif;
+  font-size: 50pt;
+  margin-bottom: 15px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.ears {
+  float: left;
+ }
+ .spread {
+  margin-bottom: -40px;
+ }
+
+ #colony .left {
+  float: left;
+ }
+
+ #colony .content {
+  background-color: #D06E00;
+ }
+.group-pic {
+  float: right;
+  margin-top: 40px;
+}
+
+#about-us .left {
+  float: left;
+}
+#about-content {
+  width: 768px;
+  background-color: #E5C173;
+  margin-left: 0px;
+  min-height: 467px;
+ }
+
+ #about-content .linebreak {
+  width: 55%;
+ }
+*/
